@@ -1,12 +1,60 @@
 
-/* 
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-*/
+.upperZone {
+  background-color: black;
+  height: 120px;
+  display: flex;
+  width: 30px;
+}
+
+.trafficLight {
+  height: 600px;
+  width: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20%;
+}
+
+#redLight {
+  background-color: red;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#yellowLight {
+  background-color: yellow;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 40px;
+  cursor: pointer;
+}
+
+#greenLight {
+  background-color: green;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.glow {
+  box-shadow: 0 0 50px #4f9;
+}
